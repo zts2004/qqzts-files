@@ -1,0 +1,12 @@
+# 忽略配置文件
+js/config.js
+
+# 忽略系统文件
+.DS_Store
+Thumbs.db
+
+# 忽略编辑器文件
+.idea/
+.vscode/
+*.swp
+*.swo 
