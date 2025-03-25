@@ -11,13 +11,22 @@
     <script src="js/config.js"></script>
 </head>
 <body>
+    <!-- 背景动画 -->
+    <div class="cyber-background">
+        <div class="cyber-grid"></div>
+        <div class="cyber-particles"></div>
+    </div>
+
     <!-- 密码验证界面 -->
     <div id="auth-container" class="container">
         <div class="auth-box">
             <h2>系统验证</h2>
             <div class="input-group">
-                <input type="password" id="password-input" placeholder="请输入访问密码">
-                <button onclick="verifyPassword()">验证</button>
+                <input type="password" id="password-input" placeholder="请输入访问密码" autocomplete="off">
+                <button class="cyber-button" onclick="verifyPassword()">
+                    <span class="button-content">验证</span>
+                    <div class="button-glow"></div>
+                </button>
             </div>
         </div>
     </div>
